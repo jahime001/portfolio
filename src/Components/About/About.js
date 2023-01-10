@@ -7,7 +7,7 @@ import { useState } from "react";
 
 
 function About() {
-    const [myclass, setmyClass] = useState('hide')
+const [myclass, setmyClass] = useState('hide')
 
   let handleShow = () => {
     const y = window.scrollY;
@@ -26,7 +26,7 @@ window.addEventListener("scroll", handleShow);
                 <h1>About Me</h1>
                 </div>
                 <div className="about-p">
-                    <p>Hi! I'm a 19 year old full-stack developer who's passion for tech, computers and problem solving is expressed through workflow and dedication in building user-friendly web applications and helping push tech foward with the skills learned from General Assembly</p>
+                    <p>Hi! I'm a 19 year old full-stack developer who's passion for tech, computers and problem solving is expressed through workflow and dedication in building user-friendly web applications and helping push tech foward with the skills learned as a General Assembly fellow!</p>
                 </div>
                 <div className="hobbies">
                     <div className={`${myclass}`} style={{ transition: "all 1.5s" }}>
@@ -41,7 +41,7 @@ window.addEventListener("scroll", handleShow);
                             <div className="box-header" style={{ backgroundImage: `url(${mymusic})`, backgroundPosition: "center", backgroundSize: "100%, 100%"}}></div>
                         <div className="box-text">
                                 <h3>Music Producer</h3>
-                                <p>In 2018 took up learning how to produce music. I enjoy the comforts and the challenges of trying to make something completely new when I make music! </p>
+                                <p>In 2018 I took up learning how to produce music. I started by making hip-hop beats but soon tranfered over to making Kompa, a dance music genre of Haiti. Over the years i've learned to replicate live instruments such as guitars and drums on the keyboard as kompa is a live instrument based genre.</p>
                         </div>
                     </div>
 
