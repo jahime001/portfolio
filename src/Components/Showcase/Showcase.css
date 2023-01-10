@@ -1,0 +1,138 @@
+.showcase {
+    background-color: #0D1117;
+    height: 200vh;
+    display: flex;
+   color: white;
+   align-items: center;
+   flex-direction: column;
+    
+}
+
+.case-header{
+    
+}
+.projects{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.project-container{
+    border: 1px solid red;
+    width: 1000px;
+    height: 400px;
+    display:  flex;
+    /* background-color: #21262d; */
+background: #21252d;
+   
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+.project-info{
+    width: 50%;
+    height: 100%;
+    border: 1px solid blue;
+    color: #a5a5a5;
+}
+
+.project-sc {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+}
+.window{
+    border: 1px solid blue;
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 5px black;
+}
+.window-nav{
+    /* border:  1px solid red; */
+    width: 100%;
+    height: 10%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: saturate(100%) blur(20px);
+}
+.circle{
+    display: flex;
+    border: 1px solid green;
+    width: 15%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.window-sc{
+    width: 100%;
+    height: 90%;
+    bottom: 0;
+}
+
+.project-header{
+border: 1px solid blue;
+height: 20%;
+display: flex;
+}
+.project-title{
+    width: 50%;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.project-links{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project-desc {
+    /* border: 1px solid blue; */
+    height: 60%;
+    border-right: 1px solid #22f1bf;
+}
+.project-tech {
+    /* border: 1px solid blue; */
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #22f1bf;
+}
+.project-tech p{
+    font-style: italic;
+}
+
+.gitlink{
+    color: #a5a5a5;
+    opacity: .2;
+    height: 50px;
+    width: 50px;
+    padding-right: 40px;
+    transition: .5s;
+}
+
+.weblink{
+    opacity: .2;
+    color: #a5a5a5;
+    height: 50px;
+        width: 50px;
+        transition: .5s;
+}
+
+.gitlink:hover{
+    color: #22f1bf;
+    opacity: 1;
+}
+
+.weblink:hover{
+    color: #22f1bf;
+    opacity: 1;
+}

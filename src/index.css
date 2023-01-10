@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,20 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --background: white;
+  --text-primary: black;
+  --text-secondary: royalblue;
+  --accent: #d5b372;
+  --accent2: #6D9886;
+}
+
+[data-theme='dark'] {
+  --background: #0D1117;
+  --text-primary: white;
+  --text-secondary: #a5a5a5;
+  --accent: #22f1bf;
+  --accent2: #7371ff;
 }

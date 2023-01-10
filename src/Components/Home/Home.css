@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+.home{
+    color: white;
+    background-color: #0D1117;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    /* border: 1px solid; */
+    width: 85%;
+    height: 70%;
+    /* font-family: 'DM Sans', sans-serif; */
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.welcome{
+    width: 50%;
+    /* border: 1px solid; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.welcome h1{
+    font-size: 70px;
+    font-family: 'DM Sans', sans-serif;
+    opacity: 0;
+        animation-name: fadein;
+        animation-duration: 500ms;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-delay: .5s;
+        color: #e2e2e2;
+}
+.desc{
+    opacity: 0;
+        animation-name: fadein;
+        animation-duration: 500ms;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-delay: .6s;
+        color: #a5a5a5;
+}
+.profile{
+    /* border: 1px solid; */
+    width: 50%;
+    height: 100%;
+}
+.img-container{
+    /* border: 1px solid; */
+    height: 100%;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+            animation-name: fadein;
+            animation-duration: 500ms;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            animation-delay: .8s;
+}
+
+.img-container img {
+    /* border: 1px solid; */
+    height: 100%;
+    width: 70%;
+    border-radius: 20px;
+}
+.home-links{
+    /* border: 1px solid red; */
+    width: 600px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0;
+        animation-name: fadein;
+        animation-duration: 500ms;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-delay: .7s;
+}
+.home-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+    width: 150px;
+    background-color: #22f1bf;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.home-link:hover{
+    color: white;
+        transition-duration: .2s;
+        cursor: pointer;
+    background-color: #7371ff;
+}
+
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,26 @@
+[
+     {
+        "title": "Dyna-Mark",
+        "description": "Save coding websites you found interesting or usefull",
+        "screenshot": "https://i.imgur.com/zDAmSjF.png",
+        "website": "https://dyna-mark.vercel.app/",
+        "github": "https://github.com/jahime001/dyna-mark",
+        "tech": ["Javascript", "Html", "Css", "React", "Express"]
+    },
+    {
+        "title": "Nba Stats",
+        "description": "Using this app you can a NBA team's Roster and Upcoming Games. You can also see games from the 2021 season.",
+        "screenshot": "https://i.imgur.com/jveZWp8.png",
+        "website": "https://nba-stats-theta.vercel.app/",
+        "github": "https://github.com/jahime001/nba-stats",
+        "tech": ["Javascript", "Html", "Css", "React"]
+    },
+    {
+        "title": "Music Trivia",
+        "description": "The goal of the game is to answer the questions promted to you correctly.",
+        "screenshot": "https://i.imgur.com/kzihYzl.png",
+        "website": "https://nba-stats-theta.vercel.app/",
+        "github": "https://github.com/jahime001/nba-stats",
+        "tech": ["Javascript", "Html", "Css"]
+    }
+]

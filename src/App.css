@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 .App {
   text-align: center;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 .App-logo {
@@ -26,6 +29,35 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.floater{
+  position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: rgba(255, 255, 255, .4);
+    color: rgb(2, 21, 40);
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.floater2{
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 120px;
+  right: 40px;
+  background-color: rgba(255, 255, 255, .4);
+  color: rgb(2, 21, 40);
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+}
+.change:hover{
+  background: white;
 }
 
 @keyframes App-logo-spin {
