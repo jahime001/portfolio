@@ -3,7 +3,8 @@ import './Skills.css'
 // import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
 import { FaJsSquare, FaReact, FaCss3, FaHtml5, FaNodeJs, FaPython } from 'react-icons/fa'
 import { DiMongodb } from 'react-icons/di'
-import { SiExpress, SiPostgresql, SiDjango } from 'react-icons/si'
+
+import { SiExpress, SiPostgresql, SiDjango, SiFirebase } from 'react-icons/si'
 export default function Skills() {
       const [myclass, setmyClass] = useState('hide')
 
@@ -30,6 +31,7 @@ export default function Skills() {
       <div><FaPython color='#4584B6' className='icon'/><p>Python</p></div>
       <div><SiPostgresql color='336791'className='icon'/><p>PostgreSQL</p></div>
       <div><SiDjango color='#092e20' className='icon'/><p>Django</p></div>
+      <div><SiFirebase color='orange' className='icon'/><p>Firebase</p></div>
       </div>
       
     </div>

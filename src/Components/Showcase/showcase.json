@@ -5,15 +5,23 @@
         "screenshot": "https://i.imgur.com/zDAmSjF.png",
         "website": "https://dyna-mark.vercel.app/",
         "github": "https://github.com/jahime001/dyna-mark",
-        "tech": ["Javascript", "Html", "Css", "React", "Express"]
+        "tech": ["Javascript", "HTML", "CSS", "React", "Express"]
+    },
+     {
+        "title": "Manage CDL",
+        "description": "Track employees, vans and students for private bus company owners (W.I.P)",
+        "screenshot": "https://user-images.githubusercontent.com/115008686/211050155-d452fdeb-c4f0-4bda-9cb4-df778459b6de.png",
+        "website": "https://manage-cdl.vercel.app/",
+        "github": "https://github.com/jahime001/manage-cdl",
+        "tech": ["Javascript", "HTML", "CSS", "React", "Firebase"]
     },
     {
-        "title": "Nba Stats",
+        "title": "NBA Stats",
         "description": "Using this app you can a NBA team's Roster and Upcoming Games. You can also see games from the 2021 season.",
         "screenshot": "https://i.imgur.com/jveZWp8.png",
         "website": "https://nba-stats-theta.vercel.app/",
         "github": "https://github.com/jahime001/nba-stats",
-        "tech": ["Javascript", "Html", "Css", "React"]
+        "tech": ["Javascript", "HTML", "CSS", "React"]
     },
     {
         "title": "Music Trivia",
@@ -21,6 +29,6 @@
         "screenshot": "https://i.imgur.com/kzihYzl.png",
         "website": "https://nba-stats-theta.vercel.app/",
         "github": "https://github.com/jahime001/nba-stats",
-        "tech": ["Javascript", "Html", "Css"]
+        "tech": ["Javascript", "HTML", "CSS"]
     }
 ]
