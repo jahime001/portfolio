@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './Skills.css'
-// import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
 import { FaJsSquare, FaReact, FaCss3, FaHtml5, FaNodeJs, FaPython } from 'react-icons/fa'
 import { DiMongodb } from 'react-icons/di'
 

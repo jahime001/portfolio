@@ -1,6 +1,5 @@
 import React from "react";
 import './Home.css';
-import { GrContact } from 'react-icons/gr'
 import { Link } from 'react-scroll';
 import pfp from './pfp.jpg'
 
@@ -14,12 +13,12 @@ function Home(){
             <h2 className="desc"> Full Stack Developer! <br></br>Learn more about me and my love for <span class="orange">technology!</span></h2>
             <div className="home-links">
                <Link to="about" spy={true} smooth={true} offset={-100} duration={500}><div className="home-link">Learn More</div></Link>
-               <div className="home-link">Let's Connect!</div>
+               <div className="home-link"><a href='https://www.linkedin.com/in/jahimecameau/' target='blank'>Let's Connect!</a></div>
                 </div>
         </div>
         <div className="profile">
                 <div className="img-container">
-                    <img src={pfp} alt="Profile Picture" />
+                    <img src={pfp} alt="Jahime" />
 
                 </div>
         </div>
