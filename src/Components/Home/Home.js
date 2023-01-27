@@ -2,6 +2,7 @@ import React from "react";
 import './Home.css';
 import { Link } from 'react-scroll';
 import pfp from './pfp.jpg'
+import pfp2 from './pfp2.png'
 
 function Home(){
 
@@ -18,7 +19,7 @@ function Home(){
         </div>
         <div className="profile">
                 <div className="img-container">
-                    <img src={pfp} alt="Jahime" />
+                    <img src={pfp2} alt="Jahime" />
 
                 </div>
         </div>
