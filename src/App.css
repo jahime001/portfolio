@@ -37,8 +37,8 @@
     height: 60px;
     bottom: 40px;
     right: 40px;
-    background-color: #22f1bf;
-    color: rgb(2, 21, 40);
+    /* background-color: #5850f5; */
+    color: rgb(0, 0, 0);
     border-radius: 50px;
     text-align: center;
 }
@@ -49,13 +49,13 @@
   height: 60px;
   bottom: 120px;
   right: 40px;
-  background-color: #22f1bf;
-  color: rgb(2, 21, 40);
+  /* background-color: #22f1bf; */
+  color: rgb(0, 0, 0);
   border-radius: 50px;
   text-align: center;
 }
 .change:hover{
-  background: white;
+  color: #5850f5;
 }
 
 @keyframes App-logo-spin {

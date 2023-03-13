@@ -3,22 +3,32 @@ import './Home.css';
 import { Link } from 'react-scroll';
 import pfp from './pfp.jpg'
 import pfp2 from './pfp2.png'
+import background from './background1.jpg'
 import { BsArrowUpRight } from "react-icons/bs";
 function Home(){
 
     return (
       <div className="home" id="home">
-        <div className="home-container">
+        <div
+          className="home-container"
+          style={{
+            // backgroundImage: `url(${background})`,
+            backgroundPosition: "center",
+            backgroundSize: "100%, 100%",
+            backgrounFfilter: "blur(8px)",
+          }}
+        >
           <div className="welcome">
-            <h1 className="name">
-              Hi! I'm <br></br>Jahime Cameau
-            </h1>
+            <div className="title">
+              <div className="title-line-1">
+                <span>Hello! I Am</span>{" "}
+              </div>
+              <div className="title-line-2">Jahime Cameau</div>
+            </div>
             <h2 className="desc">
               {" "}
-              <span className="position-title">Software Engineer!</span>{" "}
-              <br></br>My passion for tech and problem solving is
-              expressed through workflow and dedication in building
-              user-friendly web applications!{" "}
+              <span className="position-title">Full Stack Developer</span>
+              <br></br>Creating solutions one line of code at a time!{" "}
             </h2>
             <div className="home-links">
               <Link
@@ -39,11 +49,6 @@ function Home(){
                   <BsArrowUpRight className="home-link-2-arrow" />
                 </a>
               </div>
-            </div>
-          </div>
-          <div className="profile">
-            <div className="img-container">
-              <img src={pfp2} alt="Jahime" />
             </div>
           </div>
         </div>
