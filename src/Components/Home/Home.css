@@ -145,43 +145,24 @@ align-items: center;
     color: rgb(0, 0, 0);
     margin-left: 20px;
 }
-.home-link-2-arrow{
-    
-}
+
 .home-link-2 a{
     text-decoration: none;
     color: inherit;
+    
 }
 .home-link-1:hover{
     color: white;
         transition-duration: .2s;
         cursor: pointer;
     background-color: #000000;
+    
 }
 .position-title{
     font-size: 55px;
     margin-bottom: 50px;
-    /* border: 1px solid; */
 }
-.name-tag {
-    font-size: 25px;
-    align-items: center;
-    width: 250px;
-}
-.tag{
-/* border: 1px solid red; */
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 20px;
-border-end-end-radius: 30px;
-border-start-start-radius: 30px;
-background-color: #ff4c38;
-color: white;
-font-weight: 400;
-width: 100px;
-height: 40px;
-}
+
 .title-line-1 span{
     color: #000000;
     font-weight: 900;
@@ -223,5 +204,8 @@ height: 40px;
 }
 .home{
     height: 70vh;
+}
+.home-links{
+    width: 100%;
 }
 }

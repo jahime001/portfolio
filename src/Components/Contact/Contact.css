@@ -5,7 +5,8 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    background-color: #21252d;
+    background-color: #5850f5;
+    color: #5850f5;
 }
 .contact div {
     display: flex;
@@ -13,6 +14,7 @@
     justify-content: center;
     height: 50px;
     width: 300px;
-    background-color: #22f1bf;
+    background-color: #ffffff;
     border-radius: 20px;
 }
+

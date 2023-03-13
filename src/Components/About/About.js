@@ -53,7 +53,9 @@ window.addEventListener("scroll", handleShow);
               </p>
             </div>
           </div>
-          <div className="about-right"></div>
+          {currentWidth > 600 &&
+            <div className="about-right"></div>
+          }
         </div>
       </div>
     );

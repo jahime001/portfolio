@@ -4,6 +4,7 @@
     color: #ffffff;
     background-color: #5850f5;
    
+   
     
 }
 
@@ -63,13 +64,16 @@ width: 100%;
     text-align: start;
     height: 100%;
     width: 100%;
+    border: none;
 }
 .about-right{
     display: none;
+
   
 }
 .about-text{
     margin-top: -80px;
+    
 }
 .about-text p{
     font-size: 20px;
