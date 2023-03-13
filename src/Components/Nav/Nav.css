@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'PT Sans', sans-serif;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
     height: 90px;
         width: 100%;
-        background-color: #0D1117;
+        background-color: #ffffff;
+        color: black;
 }
 
 .logo {
     text-align: center;
     width: 20%;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -34,7 +36,7 @@
 }
 
 .nav-links a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 20px;
 }
@@ -45,7 +47,7 @@
 }
 
 span{
-    color: #7371ff;
+    color: #ff4c38;
 }
 button{
     height: 40px;

@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 .home{
-    color: white;
-    background-color: #0D1117;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .home-container{
@@ -18,7 +20,7 @@
     width: 85%;
     height: 70%;
     /* font-family: 'DM Sans', sans-serif; */
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .welcome{
@@ -33,14 +35,15 @@
 }
 .welcome h1{
     font-size: 70px;
-    font-family: 'DM Sans', sans-serif;
     opacity: 0;
         animation-name: fadein;
         animation-duration: 500ms;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
         animation-delay: .5s;
-        color: #e2e2e2;
+        color: #000000;
+        /* border: 1px solid red; */
+        text-align: start;
 }
 .desc{
     opacity: 0;
@@ -49,7 +52,7 @@
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
         animation-delay: .6s;
-        color: #a5a5a5;
+        color: #000000;
 }
 .profile{
     /* border: 1px solid; */
@@ -85,7 +88,7 @@
     width: 600px;
     height: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     opacity: 0;
         animation-name: fadein;
@@ -94,26 +97,41 @@
         animation-fill-mode: forwards;
         animation-delay: .7s;
 }
-.home-link{
+.home-link-1{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     height: 60px;
     width: 150px;
-    background-color: #22f1bf;
+    background-color: #ff4c38;
     font-size: 20px;
     font-weight: 600;
     color: white;
 }
-.home-link a{
+.home-link-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+    width: 150px;
+    background-color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+.home-link-2-arrow{
+    
+}
+.home-link-2 a{
     text-decoration: none;
     color: inherit;
 }
-.home-link:hover{
+.home-link-1:hover{
     color: white;
         transition-duration: .2s;
         cursor: pointer;
-    background-color: #7371ff;
+    background-color: #000000;
 }
 
 
