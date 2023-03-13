@@ -15,8 +15,10 @@ function Home(){
             </h1>
             <h2 className="desc">
               {" "}
-              Full Stack Developer! <br></br>Learn more about me and my love for{" "}
-              <span class="orange">technology!</span>
+              <span className="position-title">Software Engineer!</span>{" "}
+              <br></br>My passion for tech and problem solving is
+              expressed through workflow and dedication in building
+              user-friendly web applications!{" "}
             </h2>
             <div className="home-links">
               <Link
@@ -33,7 +35,8 @@ function Home(){
                   href="https://www.linkedin.com/in/jahimecameau/"
                   target="blank"
                 >
-                  Let's Connect! <BsArrowUpRight className="home-link-2-arrow" />
+                  Let's Connect!{" "}
+                  <BsArrowUpRight className="home-link-2-arrow" />
                 </a>
               </div>
             </div>

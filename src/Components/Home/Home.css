@@ -133,7 +133,9 @@
         cursor: pointer;
     background-color: #000000;
 }
-
+.position-title{
+    font-size: 55px;
+}
 
 @keyframes fadein {
     0% {
