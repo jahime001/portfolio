@@ -1,8 +1,9 @@
 
 .about {
-    height: 100vh;
-    color: #000000;
-    background-color: #ffffff;
+    height: 70vh;
+    color: #ffffff;
+    background-color: #5850f5;
+   
     
 }
 
@@ -24,7 +25,7 @@ width: 100%;
     justify-content: end;
     align-items: center;
     text-align: start;
-    border-right: 5px solid #5850f5;
+    border-right: 5px solid #ffffff;
 }
 .about-text{
     /* border: 1px solid; */
@@ -35,6 +36,9 @@ width: 100%;
 }
 .about-text p {
     font-size: 25px;
+}
+.about-text h3 span{
+    color: white;
 }
 
 

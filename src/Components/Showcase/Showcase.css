@@ -1,8 +1,8 @@
 .showcase {
-    background-color: #0D1117;
+    background-color: #ffffff;
     height: 300vh;
     display: flex;
-   color: white;
+   color: rgb(0, 0, 0);
    align-items: center;
    flex-direction: column;
     
@@ -20,15 +20,15 @@
     width: 1000px;
     height: 400px;
     display:  flex;
-background: #21252d;
+background: #ffffff;
    
-    box-shadow: 0px 0px 10px 5px black;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 .project-info{
     width: 50%;
     height: 100%;
-    color: #a5a5a5;
+    color: #000000;
 }
 
 .project-sc {
@@ -84,21 +84,21 @@ display: flex;
 }
 .project-desc {
     height: 60%;
-    border-right: 1px solid #22f1bf;
+    border-right: 1px solid #5850f5;
 }
 .project-tech {
     height: 20%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    color: #22f1bf;
+    color: #5850f5;
 }
 .project-tech p{
     font-style: italic;
 }
 
 .gitlink{
-    color: #a5a5a5;
+    color: #5850f5;
     opacity: .2;
     height: 50px;
     width: 50px;
@@ -108,18 +108,18 @@ display: flex;
 
 .weblink{
     opacity: .2;
-    color: #a5a5a5;
+    color: #5850f5;
     height: 50px;
         width: 50px;
         transition: .5s;
 }
 
 .gitlink:hover{
-    color: #22f1bf;
+    color: #5850f5;
     opacity: 1;
 }
 
 .weblink:hover{
-    color: #22f1bf;
+    color: #5850f5;
     opacity: 1;
 }

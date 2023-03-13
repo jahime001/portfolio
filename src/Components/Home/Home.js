@@ -42,11 +42,10 @@ function Home(){
               </Link>
               <div className="home-link-2">
                 <a
-                  href="https://www.linkedin.com/in/jahimecameau/"
+                  href="https://drive.google.com/file/d/1gp66W6KmfGkLoNgRpjF5ePS2z3h4g4O5/view?usp=sharing"
                   target="blank"
                 >
-                  Let's Connect!{" "}
-                  <BsArrowUpRight className="home-link-2-arrow" />
+                  My Resume <BsArrowUpRight className="home-link-2-arrow" />
                 </a>
               </div>
             </div>
