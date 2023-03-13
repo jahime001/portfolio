@@ -1,13 +1,15 @@
-import React from "react";
-import './Nav.css'
+import { useEffect, useState, useRef } from "react";
+import "./Nav.css";
 import { Route, Routes } from "react-router-dom";
 import About from "../About/About";
-import { Link } from 'react-scroll';
+import { Link } from "react-scroll";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 function Nav() {
 
+  let currentWidth = window.innerWidth;
 
-
+  if (currentWidth > 600) {
     return (
       <div className="nav">
         <div className="logo">
@@ -70,6 +72,31 @@ function Nav() {
         </main>
       </div>
     );
+  } else {
+    return (
+      <div className="nav">
+        <div className="logo">
+          <h1>Jahime's</h1>
+          <h3>Portfolio</h3>
+        </div>
+
+        <div className="nav-links">
+          <a href="https://www.linkedin.com/in/jahimecameau/" target="blank">
+            <AiFillLinkedin className="floater-nav" />
+          </a>
+          <a href="https://github.com/jahime001" target="blank">
+            <AiFillGithub className="floater-nav" />
+          </a>
+        </div>
+
+        <main>
+          <Routes>
+            <Route path="/about" element={<About />} />
+          </Routes>
+        </main>
+      </div>
+    );
+  }
 }
 
-export default Nav
+export default Nav;

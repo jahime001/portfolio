@@ -9,10 +9,16 @@ import { GoPrimitiveDot } from "react-icons/go";
 
 function About() {
 const [myclass, setmyClass] = useState('hide')
-
+let currentWidth = window.innerWidth;
+let scroll = 0
+  if (currentWidth > 600) {
+    scroll = 300
+  } else {
+    scroll = 50
+   }
   let handleShow = () => {
     const y = window.scrollY;
-    if (y >= 600) {
+    if (y >= scroll) {
       setmyClass("show")
     } else {
       setmyClass("hide")

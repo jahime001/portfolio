@@ -5,6 +5,7 @@ import pfp from './pfp.jpg'
 import pfp2 from './pfp2.png'
 import background from './background1.jpg'
 import { BsArrowUpRight } from "react-icons/bs";
+
 function Home(){
 
     return (

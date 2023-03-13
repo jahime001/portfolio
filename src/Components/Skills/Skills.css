@@ -15,10 +15,10 @@
 }
 .skills-floater{
     position: absolute;
-    width: 900px;
+    width: 1200px;
     height: 50vh;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 18px 6px rgba(0,0,0,0.5);
+    /* box-shadow: 0px 0px 18px 6px rgba(0,0,0,0.5); */
     border-radius: 10px;
     display: grid;
 grid-template-columns: repeat(4, 1fr);
@@ -45,3 +45,18 @@ grid-row-gap: 0px;
 /* .skills-title h1{
     margin-top: -1px;
 } */
+@media only screen and (max-width: 600px){
+    .skills-floater{
+    position: absolute;
+    width: 375px;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 0px 0px 18px 6px rgba(0,0,0,0.5); */
+    border-radius: 10px;
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+}

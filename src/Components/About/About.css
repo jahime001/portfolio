@@ -51,3 +51,27 @@ width: 100%;
     opacity: 1;
 }
 
+@media only screen and (max-width: 600px){
+    .about-container {
+        flex-direction: column;
+    }
+    .about-left{
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: start;
+    height: 100%;
+    width: 100%;
+}
+.about-right{
+    display: none;
+  
+}
+.about-text{
+    margin-top: -80px;
+}
+.about-text p{
+    font-size: 20px;
+}
+}
