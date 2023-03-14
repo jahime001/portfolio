@@ -150,4 +150,7 @@ display: flex;
     padding-right: 10px;
     border: none;
 }
+.case-header{
+    padding-top: 20px
+}
 }
