@@ -208,4 +208,7 @@ align-items: center;
 .home-links{
     width: 100%;
 }
+.welcome{
+    margin-top: 40px;
+}
 }
