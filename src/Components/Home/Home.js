@@ -1,9 +1,6 @@
 import React from "react";
 import './Home.css';
 import { Link } from 'react-scroll';
-import pfp from './pfp.jpg'
-import pfp2 from './pfp2.png'
-import background from './background1.jpg'
 import { BsArrowUpRight } from "react-icons/bs";
 
 function Home(){

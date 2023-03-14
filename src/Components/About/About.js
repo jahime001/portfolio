@@ -1,10 +1,6 @@
 import React from "react";
 import './About.css';
-import mypc from './mypc.png'
-import code from './code.jpeg'
-import mymusic from './mymusic.jpeg'
 import { useState } from "react";
-import { GoPrimitiveDot } from "react-icons/go";
 
 
 function About() {

@@ -23,7 +23,7 @@ width: 100%;
 .about-left{
 
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     text-align: start;
     border-right: 5px solid #ffffff;
@@ -57,9 +57,7 @@ width: 100%;
         flex-direction: column;
     }
     .about-left{
-
     display: flex;
-    justify-content: end;
     align-items: center;
     text-align: start;
     height: 100%;

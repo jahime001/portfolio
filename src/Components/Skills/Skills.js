@@ -1,21 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Skills.css'
 import { FaJsSquare, FaReact, FaCss3, FaHtml5, FaNodeJs, FaPython } from 'react-icons/fa'
 import { DiMongodb } from 'react-icons/di'
 
 import { SiExpress, SiPostgresql, SiDjango, SiFirebase } from 'react-icons/si'
 export default function Skills() {
-      const [myclass, setmyClass] = useState('hide')
-
-  let handleShow = () => {
-    const y = window.scrollY;
-    if (y >= 1200) {
-      setmyClass("show")
-    } else {
-      setmyClass("hide")
-    }
-  }
-  window.addEventListener("scroll", handleShow);
+   
   return (
     <div className="skills" id="skills">
       <div className="skills-container">
