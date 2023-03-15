@@ -42,7 +42,7 @@ window.addEventListener("scroll", handleShow);
                 solutions with the skills learned as a General Assembly fellow!
               </p>
               <p>
-                When i'm not codding I like to produce music. I'm also really
+                When i'm not coding I like to produce music. I'm also really
                 into computers and how they work. I've learned how to build them
                 and have built multiple for friends, family and clients. I enjoy
                 keeping up with latest innovations in the computer space!
