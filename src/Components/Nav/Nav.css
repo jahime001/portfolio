@@ -92,7 +92,7 @@ main{
 .nav-links-ham{
     color: black;
     width: 100%;
-    height: 350px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     align-items: center;

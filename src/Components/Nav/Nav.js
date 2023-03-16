@@ -92,12 +92,6 @@ function Nav() {
         </div>
 
         <div className="nav-opener">
-          {/* <a href="https://www.linkedin.com/in/jahimecameau/" target="blank">
-            <AiFillLinkedin className="floater-nav" />
-          </a>
-          <a href="https://github.com/jahime001" target="blank">
-            <AiFillGithub className="floater-nav" />
-          </a> */}
           {showNav === false ? (
             <TfiMenu className="nav-opener-icon" onClick={handleShowNavbar} />
           ) : (
@@ -171,6 +165,12 @@ function Nav() {
               Contact Info
               <div class="underline"></div>
             </Link>
+            <a href="https://www.linkedin.com/in/jahimecameau/" target="blank">
+            <AiFillLinkedin className="floater-nav" />
+          </a>
+          <a href="https://github.com/jahime001" target="blank">
+            <AiFillGithub className="floater-nav" />
+          </a>
           </div>
         </div>
         <main>
