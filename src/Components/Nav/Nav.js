@@ -61,7 +61,7 @@ function Nav() {
             offset={-100}
             duration={500}
           >
-            Project Showcase
+            Projects
             <div class="underline"></div>
           </Link>
           <Link
