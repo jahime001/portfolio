@@ -43,7 +43,7 @@ function Home(){
                   href="https://drive.google.com/file/d/1gp66W6KmfGkLoNgRpjF5ePS2z3h4g4O5/view?usp=sharing"
                   target="blank"
                 >
-                  My Resume <BsArrowUpRight className="home-link-2-arrow" />
+                  Resume <BsArrowUpRight className="home-link-2-arrow" />
                 </a>
               </div>
             </div>

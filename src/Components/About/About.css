@@ -45,13 +45,16 @@ width: 100%;
 
 .hide{
     opacity: 0;
-    bottom:  0;
 }
 
 .show {
-    opacity: 1;
+    opacity: 1;   
 }
-
+.about-right
+.memoji{
+    height: 550px;
+    width: 550px;
+}
 @media only screen and (max-width: 600px){
     .about-container {
         flex-direction: column;

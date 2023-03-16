@@ -1,7 +1,7 @@
 import React from "react";
 import './About.css';
 import { useState } from "react";
-
+import memoji from './memoji.png'
 
 function About() {
 const [myclass, setmyClass] = useState('hide')
@@ -50,7 +50,9 @@ window.addEventListener("scroll", handleShow);
             </div>
           </div>
           {currentWidth > 600 &&
-            <div className="about-right"></div>
+            <div className="about-right">
+              <img src={memoji} alt="memoji" className="memoji"/>
+            </div>
           }
         </div>
       </div>
