@@ -19,7 +19,7 @@ function Home(){
           <div className="welcome">
             <div className="title">
               <div className="title-line-1">
-                <span>Hello! I Am</span>{" "}
+                {/* <span>Hello! I Am</span>{" "} */}
               </div>
               <div className="title-line-2">Jahime Cameau</div>
             </div>

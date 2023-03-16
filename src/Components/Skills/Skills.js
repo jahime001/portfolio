@@ -11,7 +11,7 @@ export default function Skills() {
       <div className="skills-container">
         <div className="skills-overlap"></div>
         <div className="skills-floater">
-          <div className='skills-title'><h1>My Skills</h1></div>
+          <div className='skills-title'><h1>Skills</h1></div>
           <div>
             <FaJsSquare color="f7df1e" className="icon" /> <p>Javascript</p>
           </div>

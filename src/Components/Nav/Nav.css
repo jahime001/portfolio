@@ -1,24 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'PT Sans', sans-serif;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
     height: 90px;
         width: 100%;
-        background-color: #ffffff;
-        color: black;
+        background-color: #5850f5;
+        color: rgb(255, 255, 255);
 }
 
 .logo {
     text-align: center;
     width: 20%;
-    color: rgb(0, 0, 0);
 }
 
 
@@ -37,14 +33,22 @@
 }
 
 .nav-links a {
-    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-
+.underline{
+    height: 3px;
+	background-color: transparent;
+	width: 0%;
+	transition: width 0.2s, background-color 0.5s;
+	margin: 0 auto;
+}
 .nav-links a:hover {
     cursor: pointer;
-    color: #5850f5;
 }
 
 span{
@@ -57,7 +61,15 @@ button{
 main{
     position: absolute;
 }
-
+.nav-links a.active .underline{
+    /* text-decoration: underline; */
+    width: 100%;
+	background-color: #ffffff;
+}
+.nav-links a:hover .underline {
+    width: 100%;
+	background-color: #ffffff;
+}
 @media only screen and (max-width: 600px){
     .logo{
         margin-left: 20px;

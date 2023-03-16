@@ -18,10 +18,19 @@ function Nav() {
         </div>
 
         <div className="nav-links">
-          <Link to="home" spy={true} smooth={true} offset={-100} duration={500}>
+          <Link
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
             Home
+            <div class="underline"></div>
           </Link>
           <Link
+            activeClass="active"
             to="about"
             spy={true}
             smooth={true}
@@ -29,6 +38,7 @@ function Nav() {
             duration={500}
           >
             About Me
+            <div class="underline"></div>
           </Link>
           <Link
             to="skills"
@@ -38,6 +48,7 @@ function Nav() {
             duration={500}
           >
             Skills
+            <div class="underline"></div>
           </Link>
           <Link
             to="showcase"
@@ -47,6 +58,7 @@ function Nav() {
             duration={500}
           >
             Project Showcase
+            <div class="underline"></div>
           </Link>
           <Link
             to="contact"
@@ -56,13 +68,14 @@ function Nav() {
             duration={500}
           >
             Contact Info
+            <div class="underline"></div>
           </Link>
-          <a
+          {/* <a
             href="https://docs.google.com/document/d/1X6AwbSkeWyjvvCpZT2Lh8B0fnFPgzK8yCIj8b8hKAsQ/edit?usp=sharing"
             target="blank"
           >
             Resume
-          </a>
+          </a> */}
         </div>
 
         <main>
