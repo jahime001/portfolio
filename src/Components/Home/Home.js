@@ -40,7 +40,7 @@ function Home(){
               </Link>
               <div className="home-link-2">
                 <a
-                  href="https://drive.google.com/file/d/1gp66W6KmfGkLoNgRpjF5ePS2z3h4g4O5/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1NEW72lyfLMH-NTaNW3qBxLG1aS8NuXA2/view?usp=sharing"
                   target="blank"
                 >
                   Resume <BsArrowUpRight className="home-link-2-arrow" />
