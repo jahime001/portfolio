@@ -8,12 +8,12 @@
         "tech": ["Javascript", "HTML", "CSS", "React", "Express"]
     },
      {
-        "title": "Manage CDL",
-        "description": "Track employees, vans and students for private bus company owners (W.I.P)",
-        "screenshot": "https://user-images.githubusercontent.com/115008686/211050155-d452fdeb-c4f0-4bda-9cb4-df778459b6de.png",
-        "website": "https://manage-cdl.vercel.app/",
-        "github": "https://github.com/jahime001/manage-cdl",
-        "tech": ["Javascript", "HTML", "CSS", "React", "Firebase"]
+        "title": "Ripple",
+        "description": "This is a mock landing page for a fictional company called Ripple, dedicated to helping businesses achieve financial success through innovative solutions. The website is designed with a strong focus on UX/UI to provide an engaging user experience.",
+        "screenshot": "https://i.imgur.com/DYiXVxv.jpg",
+        "website": "https://ripple-alpha.vercel.app/",
+        "github": "https://github.com/jahime001/ripple",
+        "tech": ["Javascript", "HTML", "CSS", "React", "Framer Motion"]
     },
     {
         "title": "NBA Stats",
